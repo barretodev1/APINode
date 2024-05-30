@@ -3,7 +3,7 @@ const app = express()
 app.use(express.json())
 
 const user = []
-
+vv
 app.post('/usuarios', (req,res) =>{
     user.push(req.body)
     res.status(201).json(req.body)
